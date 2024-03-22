@@ -1,21 +1,17 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .holder {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Items will be evenly spaced */
+    justify-content: space-evenly; /* Change this to space-evenly */
 }
 
 .item {
-    width: calc(33.33% - 10px); /* Adjust width according to number of items */
+    width: calc(33.33% - 10px);
     margin-bottom: 10px;
     background-color: lightblue;
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
 }
+
 
 /* Your CSS Code here. */
